@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int num,i,n,sumo=0;
+int num,i,sumo=0;
 float avg;
-printf("enter the number %d",n);
+printf("enter the number");
 scanf("%d",&num);
-for(i=0;i<n;i++)
+for(i=0;i<num;i++)
 {
 sum=sum+num;
 }
-avg=sum/n;
+avg=sum/num;
 printf("%f",avg);
 }
