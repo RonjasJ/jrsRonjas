@@ -9,9 +9,9 @@ lar=sam=a[0];
 for(i=0;i<n;i++)
 {
 if(a[i]>lar)
-a[i]=lar;
+lar=a[i];
 if(a[i]<sam)
-a[i]=sam;
+sam=a[i];
 }
 printf("largest and samllest value is %d %d",lar,sam);
 }
