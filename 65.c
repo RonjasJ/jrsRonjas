@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-if(printf("hello world"))
+while(printf("hello world"))
 {
 }
 return 0;
